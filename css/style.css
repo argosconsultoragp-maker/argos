@@ -199,6 +199,43 @@ section{
     box-shadow:0 20px 60px rgba(0,0,0,.25);
 
 }
+.parallax-banner{
+
+    position:relative;
+
+    height:70vh;
+
+    background-image:url("../img/trazabilidad.jpg");
+
+    background-position:center;
+
+    background-size:cover;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+}
+
+.parallax-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(10,20,35,.60);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    text-shadow:0 3px 10px rgba(0,0,0,.5);
+
+}
 
 .contact-card h2{
 
