@@ -56,8 +56,9 @@ body{
 #inicio{
 
   min-height:100vh;
-
   padding:100px;
+  color:white;
+  /* background:#0f172a; */
 
 }
 
@@ -119,10 +120,7 @@ section{
   padding-left:50px;
   border-bottom:1px solid #ccc;
 }
-#inicio{
-  background:#0f172a;
-  color:white;
-}
+
 #servicios{
   background:#f1f5f9;
 }
