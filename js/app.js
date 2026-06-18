@@ -48,5 +48,3 @@ tsParticles.load("particles", {
     }
 
 });
-
-});
