@@ -203,9 +203,7 @@ section{
 
     position:relative;
 
-    height:70vh;
-
-    background-image:url("../img/trazabilidad.png");
+    background-image:url("../img/trazabilidad.jpg");
 
     background-position:center;
 
@@ -214,31 +212,43 @@ section{
     background-repeat:no-repeat;
 
     background-attachment:fixed;
-
 }
 
-.parallax-overlay{
+.parallax-banner::before{
+
+    content:"";
 
     position:absolute;
 
     inset:0;
 
-    background:rgba(10,20,35,.60);
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    color:white;
-
-    text-shadow:0 3px 10px rgba(0,0,0,.5);
-
+    background:rgba(10,20,35,.75);
 }
 
-.contact-card h2{
+.parallax-banner section{
 
-    color:#0f172a;
+    position:relative;
+
+    z-index:2;
+}
+
+.metodologia-box{
+
+    background:rgba(255,255,255,.10);
+
+    backdrop-filter:blur(8px);
+
+    padding:40px;
+
+    border-radius:20px;
+
+    color:white;
+}
+
+.parallax-banner .card{
+
+    border:none;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
 }
 
