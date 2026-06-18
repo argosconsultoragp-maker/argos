@@ -110,7 +110,7 @@ body{
 }
 .hero-parallax{
 
-    background-image:url("img/hero.jpg");
+    background-image:url("../img/hero.jpg");
 
     min-height:100vh;
 
