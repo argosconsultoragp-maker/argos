@@ -65,7 +65,7 @@ body{
 #metodologia{
 
   min-height:100vh;
-
+  background:transparent;
   padding:100px;
 
 }
@@ -122,7 +122,8 @@ section{
 }
 
 #servicios{
-  background:#f1f5f9;
+  /* background:#f1f5f9 */;
+   background:transparent;
 }
 #contacto{
 
