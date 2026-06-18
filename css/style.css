@@ -10,39 +10,9 @@ body{
   font-family:Arial,sans-serif;
 }
 
-.parallax{
 
-  background-image:url('https://picsum.photos/1920/1080');
 
-  min-height:100vh;
 
-  background-position:center;
-
-  background-repeat:no-repeat;
-
-  background-size:cover;
-
-  background-attachment:fixed;
-
-  display:flex;
-
-  justify-content:center;
-
-  align-items:center;
-
-}
-
-.hero{
-
-  background:rgba(0,0,0,.5);
-
-  padding:40px;
-
-  color:white;
-
-  text-align:center;
-
-}
 
 #servicios{
 
@@ -136,9 +106,6 @@ body{
     color:white;
 }
 
-
-
-
 html{
   scroll-behavior:smooth;
 }
@@ -163,12 +130,7 @@ section{
   background:#e2e8f0;
 }
 
-.menu{
-  position:fixed;
-  top:0;
-  width:100%;
-  z-index:999;
-}
+
 
 .parallax{
  background-image:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
