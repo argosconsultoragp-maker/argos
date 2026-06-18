@@ -303,27 +303,35 @@
   Contacto
 </h2>
 
-<form>
+<form action="https://formspree.io/f/TU_ID" method="POST">
 
-  <div class="mb-3">
-    <input class="form-control" placeholder="Nombre">
-  </div>
+<input
+name="nombre"
+class="form-control"
+placeholder="Nombre">
 
-  <div class="mb-3">
-    <input class="form-control" placeholder="Empresa">
-  </div>
+<input
+name="empresa"
+class="form-control"
+placeholder="Empresa">
 
-  <div class="mb-3">
-    <input class="form-control" placeholder="Email">
-  </div>
+<input
+name="email"
+type="email"
+class="form-control"
+placeholder="Email">
 
-  <div class="mb-3">
-    <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
-  </div>
+<textarea
+name="mensaje"
+class="form-control"></textarea>
 
-  <button class="btn btn-warning">
-    Solicitar Diagnóstico
-  </button>
+<button
+type="submit"
+class="btn btn-warning">
+
+Solicitar Diagnóstico
+
+</button>
 
 </form>
 
