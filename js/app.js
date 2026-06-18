@@ -5,6 +5,10 @@ window.addEventListener('scroll', () => {
 });
 tsParticles.load("particles", {
 
+    fullScreen: {
+        enable: false
+    },
+
     background: {
         color: {
             value: "transparent"
@@ -42,5 +46,7 @@ tsParticles.load("particles", {
         }
 
     }
+
+});
 
 });
