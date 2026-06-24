@@ -1,360 +1,505 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>ARGOS Consultora</title>
+  <title>ARGOS Consultora</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<link rel="stylesheet" href="css/style.css">
-<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-argos">
-
-  <div class="container">
-
-
-<a class="navbar-brand fw-bold" href="#inicio">
-  ARGOS
-</a>
-
-<button
-  class="navbar-toggler"
-  type="button"
-  data-bs-toggle="collapse"
-  data-bs-target="#menu">
-
-  <span class="navbar-toggler-icon"></span>
-
-</button>
-
-<div class="collapse navbar-collapse" id="menu">
-
-  <ul class="navbar-nav ms-auto">
-
-    <li class="nav-item">
-      <a class="nav-link" href="#inicio">Inicio</a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" href="#problemas">Problemas</a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" href="#servicios">Servicios</a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" href="#metodologia">Metodología</a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" href="#experiencia">Experiencia</a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" href="#clientes">Clientes</a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" href="#contacto">Contacto</a>
-    </li>
-
-  </ul>
-
-</div>
-
-
-  </div>
-
-</nav>
-
-<section id="inicio" class="hero-parallax">
-
-  <div class="overlay">
-
-<div class="container text-center">
-  <!-- Se agregaron las clases: d-block, mx-auto e img-fluid -->
-  <img src="img/logo.jpg" 
-     class="d-block mx-auto" 
-     style="max-width: 100%; height: auto;" 
-     alt="Logo Argos">
-
-  <h1 class="display-1 fw-bold mt-3">
-    ARGOS
-  </h1>
-
-  <h2 class="mt-4">
-    Transformamos datos operativos en decisiones estratégicas
-  </h2>
-
-  <p class="lead mt-4">
-    Gestión • Trazabilidad • Indicadores • Mejora Operativa
-  </p>
-
-  <a href="#contacto" class="btn btn-warning btn-lg mt-3">
-    Contactanos
-  </a>
-</div>
-
-
-  </div>
-
-</section>
-
-<section id="problemas">
-
-  <div class="container">
-
-
-<h2 class="text-center mb-5">
-  ¿Tu empresa enfrenta estos desafíos?
-</h2>
-
-<div class="row g-4">
-
-  <div class="col-md-6">Ineficiencia Operativa: <p>Procesos manuales que ralentizan la producción y generan errores.</p></div>
-  <div class="col-md-6">Falta de Visibilidad:<p> Datos dispersos en planillas, sin una visión clara del rendimiento en tiempo real.</p>
-  </div>
-  <div class="col-md-6">Altos Costos de Software:<p>ERPs tradicionales complejos y costosos que no se adaptan a tus necesidades..</p></div>
-  <div class="col-md-6">Toma de Decisiones Lenta:<p> Basada en intuición o información desactualizada, perdiendo oportunidades.</p> </div>
-
-</div>
-
-
-  </div>
-
-</section>
-
-<div class="parallax-banner">
-
-  <section id="servicios">
-
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-argos">
     <div class="container">
 
-      <h2 class="text-center mb-5 text-white">
-        Servicio
+      <a class="navbar-brand fw-bold" href="#inicio">
+        ARGOS
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#problemas">Problemas</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#metodologia">Metodología</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#experiencia">Experiencia</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#clientes">Clientes</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <section id="inicio" class="hero-parallax">
+    <div class="overlay">
+
+      <div class="container text-center">
+        <img
+          src="img/logo.jpg"
+          class="d-block mx-auto"
+          style="max-width: 100%; height: auto;"
+          alt="Logo Argos">
+
+        <h1 class="display-1 fw-bold mt-3">
+          ARGOS
+        </h1>
+
+        <h2 class="mt-4">
+          Ingeniería de operaciones y tecnología digital al servicio de la productividad
+        </h2>
+
+        <p class="lead mt-4">
+          Integramos análisis de procesos, tecnología y automatización de registros para mejorar la eficiencia y reducir costos de forma sostenible.
+        </p>
+
+        <a href="#contacto" class="btn btn-warning btn-lg mt-3">
+          Contactanos
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="problemas">
+    <div class="container">
+
+      <h2 class="text-center mb-5">
+        ¿Tu empresa enfrenta estos desafíos?
       </h2>
-      <h4 class="text-center mb-5 text-white">En Argos, combinamos nuestra profunda experiencia en ingeniería y 
-        análisis de proceso con la agilidad de los servicios en la nube para diseñar e implementar 
-        soluciones que resuelven estos problemas de raíz. Te ayudamos a:</h4>
 
       <div class="row g-4">
 
-        <div class="col-md-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h4>Visión General de Servicios </h4>
-              <p>
-                Ofrecemos un portafolio integral de servicios diseñados para optimizar 
-                cada aspecto de tu operación industrial, desde la planificación hasta 
-                la toma de decisiones estratégicas. Nuestra especialización dual en ingeniería industrial y 
-                soluciones low-code nos permite ofrecer un valor único en el mercado
-              </p>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <h4>Ineficiencia Operativa</h4>
+          <p>
+            Procesos manuales que ralentizan la producción, generan errores y consumen tiempo valioso del equipo.
+          </p>
         </div>
 
-        <div class="col-md-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h4>Tablero de Gestión Operativa</h4>
-              <p>
-                KPIs, dashboards ejecutivos y seguimiento diario.
-              </p>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <h4>Falta de Visibilidad</h4>
+          <p>
+            Datos dispersos en planillas, registros aislados y poca claridad sobre el rendimiento real de la operación.
+          </p>
         </div>
 
-        <div class="col-md-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h4>Gestión Integral de Procesos</h4>
-              <p>
-                Digitalización y trazabilidad completa.
-              </p>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <h4>Altos Costos de Software</h4>
+          <p>
+            ERPs tradicionales complejos y costosos que obligan a adaptar tus procesos a la herramienta, en lugar de acompañar tu forma de trabajar.
+          </p>
+        </div>
+
+        <div class="col-md-6">
+          <h4>Toma de Decisiones Lenta</h4>
+          <p>
+            Decisiones basadas en intuición o información desactualizada, perdiendo oportunidades de mejora y crecimiento.
+          </p>
         </div>
 
       </div>
 
-      <!-- <div class="text-center mt-5">
+    </div>
+  </section>
 
-        <h2 class="display-5 fw-bold text-white">
-          Transformamos datos en decisiones
+  <div class="parallax-banner">
+
+    <section id="servicios">
+      <div class="container">
+
+        <h2 class="text-center mb-5 text-white">
+          Cómo te ayudamos
         </h2>
 
-        <p class="lead text-white">
-          Trazabilidad • Indicadores • Digitalización • Mejora Continua
+        <h4 class="text-center mb-5 text-white">
+          En Argos combinamos experiencia en ingeniería, análisis de procesos y herramientas digitales para diseñar soluciones prácticas que mejoran la productividad, reducen costos y facilitan la toma de decisiones.
+        </h4>
+
+        <div class="row g-4 mb-5">
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4>Implementación de sistemas de gestión y mejora continua</h4>
+                <p>
+                  Diseñamos e implementamos sistemas de gestión integral, metodologías de mejora continua y herramientas orientadas a aumentar la productividad, ordenar procesos y fortalecer la calidad operativa.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4>Digitalización de procesos y automatización de registros</h4>
+                <p>
+                  Automatizamos la captura de datos, eliminamos planillas manuales y optimizamos flujos de trabajo en planta mediante soluciones digitales adaptadas a la realidad de tu empresa.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4>Dashboards e información para decidir mejor</h4>
+                <p>
+                  Creamos tableros de gestión y visualizaciones que te permiten monitorear KPIs, detectar desvíos y tomar decisiones inteligentes con datos actualizados y confiables.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-md-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4>Resultados que buscamos generar</h4>
+                <ul class="mb-0">
+                  <li>Digitalizar tus procesos y automatizar la captura de datos.</li>
+                  <li>Reducir costos operativos con soluciones a medida.</li>
+                  <li>Obtener visibilidad total sobre tus indicadores clave.</li>
+                  <li>Tomar decisiones basadas en información precisa y actualizada.</li>
+                  <li>Implementar sistemas de gestión adaptados a tu operación.</li>
+                  <li>Fortalecer la productividad con herramientas prácticas de mejora continua.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4>Visión general de servicios</h4>
+                <p>
+                  Ofrecemos un portafolio integral para optimizar la operación industrial, desde la planificación y la gestión de procesos hasta la digitalización de registros y la construcción de tableros ejecutivos.
+                </p>
+                <p class="mb-0">
+                  Nuestra combinación de experiencia en ingeniería industrial y soluciones low-code nos permite desarrollar implementaciones ágiles, flexibles y enfocadas en resultados concretos.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="metodologia">
+      <div class="container text-center">
+
+        <h2 class="mb-4 text-white">
+          Nuestra filosofía de trabajo
+        </h2>
+
+        <p class="text-white mb-5">
+          Creemos en un enfoque práctico, colaborativo y orientado a resultados. Nos involucramos en la operación para comprender los desafíos reales de cada empresa y co-crear soluciones que generen impacto tangible. Nuestra metodología ágil permite implementar mejoras de forma rápida, adaptable y sostenible.
         </p>
 
-      </div> -->
+        <div class="row metodologia-box">
 
-    </div>
+          <div class="col">1<br>Comprender la operación</div>
+          <div class="col">2<br>Detectar oportunidades</div>
+          <div class="col">3<br>Diseñar indicadores y soluciones</div>
+          <div class="col">4<br>Digitalizar procesos y registros</div>
+          <div class="col">5<br>Implementar y capacitar</div>
+          <div class="col">6<br>Medir, ajustar y acompañar</div>
 
-  </section>
+        </div>
 
-  <section id="metodologia">
+      </div>
+    </section>
 
-    <div class="container text-center">
+  </div>
 
-      <h2 class="mb-5 text-white">
-        Metodología ARGOS
+  <section id="experiencia">
+    <div class="container">
+
+      <h2 class="text-center mb-5">
+        Servicios
       </h2>
 
-      <div class="row metodologia-box">
+      <div class="row g-4">
 
-        <div class="col">1<br>Comprender</div>
-        <div class="col">2<br>Detectar</div>
-        <div class="col">3<br>Diseñar KPIs</div>
-        <div class="col">4<br>Digitalizar</div>
-        <div class="col">5<br>Implementar</div>
-        <div class="col">6<br>Acompañar</div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3>Consultoría en Sistemas de Gestión Integral y Mejora Continua</h3>
+              <h5 class="mt-3">
+                Impulsa la eficiencia y la calidad en cada etapa de tu cadena de valor.
+              </h5>
+              <p class="mt-3">
+                Nuestra consultoría se enfoca en identificar oportunidades de mejora, optimizar flujos de trabajo y capacitar a tu equipo en metodologías probadas para aumentar la productividad y la consistencia operativa.
+              </p>
+              <p>Te acompañamos en la implementación de:</p>
+              <ul class="mb-0">
+                <li>Lean Manufacturing para reducir desperdicios y optimizar recursos.</li>
+                <li>Six Sigma para mejorar la calidad y reducir la variabilidad.</li>
+                <li>Gestión por KPIs para definir, medir y seguir indicadores clave.</li>
+                <li>Análisis y rediseño de procesos para lograr mayor eficiencia.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3>Digitalización y automatización de registros operacionales a medida</h3>
+              <h5 class="mt-3">
+                Transforma tu gestión operativa con soluciones digitales adaptadas a tu negocio.
+              </h5>
+              <p class="mt-3">
+                Diseñamos e implementamos sistemas a medida para registrar, ordenar y explotar la información operativa. Reemplazamos planillas dispersas y procesos manuales por herramientas ágiles, escalables y alineadas a tus necesidades.
+              </p>
+              <p>Con estas soluciones podrás, entre otras cosas:</p>
+              <ul class="mb-0">
+                <li>Optimizar inventarios y controlar insumos, productos en proceso y terminados.</li>
+                <li>Planificar mejor la producción y reducir tiempos muertos.</li>
+                <li>Gestionar la demanda y anticipar necesidades operativas.</li>
+                <li>Reducir costos evitando sobre-stock, faltantes y reprocesos.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3>Dashboards ejecutivos y de productividad</h3>
+              <h5 class="mt-3">
+                Toma el control de tus operaciones con información clara y en tiempo real.
+              </h5>
+              <p class="mt-3">
+                Convertimos tus datos operativos en dashboards interactivos, simples de interpretar y orientados a la toma de decisiones. Accedé a tus KPIs desde cualquier lugar y visualizá lo que realmente importa.
+              </p>
+              <p>Estos tableros te permitirán:</p>
+              <ul class="mb-0">
+                <li>Monitorear rendimiento de producción, calidad, mantenimiento o logística.</li>
+                <li>Identificar cuellos de botella y oportunidades de mejora.</li>
+                <li>Tomar decisiones con datos actualizados y confiables.</li>
+                <li>Contar con tableros personalizados según tus métricas prioritarias.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3>Digitalización de procesos</h3>
+              <h5 class="mt-3">
+                Automatizá y simplificá tus operaciones con aplicaciones móviles y web a medida.
+              </h5>
+              <p class="mt-3">
+                Creamos aplicaciones personalizadas para digitalizar tareas manuales, capturar información en planta y estandarizar flujos de trabajo. Buscamos que la tecnología sea una herramienta concreta para operar mejor.
+              </p>
+              <p>Estas soluciones pueden incluir:</p>
+              <ul class="mb-0">
+                <li>Captura de datos en origen, eliminando papel y errores de transcripción.</li>
+                <li>Gestión de inventarios con entradas, salidas y ubicaciones en tiempo real.</li>
+                <li>Control de calidad con registro de inspecciones y no conformidades.</li>
+                <li>Mantenimiento preventivo con planificación y seguimiento desde cualquier dispositivo.</li>
+                <li>Automatización de flujos de trabajo, aprobaciones y notificaciones.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
       </div>
 
     </div>
-
   </section>
 
-</div>
+  <section id="clientes">
+    <div class="container">
 
-<section id="experiencia">
+      <h2 class="text-center mb-5">
+        Testimonio destacado
+      </h2>
 
-  <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <p class="fs-4 mb-4">
+                “Gracias a Argos, logramos reducir nuestros errores de inventario en un 25% en solo dos meses. Su enfoque práctico y las soluciones a medida fueron clave para nuestra eficiencia.”
+              </p>
+              <p class="mb-0 fw-bold">
+                — Gerente de Operaciones, Industria Alimenticia Sanjuanina
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <h2 class="text-center mt-5 mb-5">
+        Preguntas frecuentes
+      </h2>
 
-<h2 class="text-center mb-5">
-  Experiencia
-</h2>
+      <div class="row g-4">
 
-<div class="row">
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4>¿Qué es el low-code y por qué puede ser relevante para mi PyME?</h4>
+              <p class="mb-0">
+                El low-code es una forma de desarrollar aplicaciones utilizando entornos visuales y componentes reutilizables, reduciendo tiempos y costos de implementación. Para una PyME industrial, esto permite digitalizar procesos con mayor rapidez, adaptar las herramientas a la operación real y evitar depender de soluciones rígidas o sobredimensionadas.
+              </p>
+            </div>
+          </div>
+        </div>
 
-  <div class="col-md-4">Minería</div>
-  <div class="col-md-4">Mantenimiento Industrial</div>
-  <div class="col-md-4">Producción</div>
-  <div class="col-md-4">Logística</div>
-  <div class="col-md-4">Metalmecánica</div>
-  <div class="col-md-4">Servicios Técnicos</div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4>¿Qué diferencia a sus soluciones de un ERP tradicional?</h4>
+              <p class="mb-0">
+                Nuestras soluciones son más ágiles, personalizables y orientadas a resolver problemas concretos de la operación. En lugar de obligarte a adaptar tu empresa a un software genérico, desarrollamos herramientas a medida para que el sistema acompañe tus procesos, con menor inversión y tiempos de implementación más cortos.
+              </p>
+            </div>
+          </div>
+        </div>
 
-</div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4>¿Necesito conocimientos técnicos para usar las aplicaciones?</h4>
+              <p class="mb-0">
+                No. Diseñamos aplicaciones simples e intuitivas para que puedan ser utilizadas por operarios, supervisores, responsables de calidad o gerentes. Además, acompañamos la implementación con capacitación para facilitar la adopción por parte del equipo.
+              </p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4>¿Qué tipo de industrias atienden?</h4>
+              <p class="mb-0">
+                Trabajamos principalmente con PyMEs industriales y de servicios técnicos, incluyendo metalmecánica, alimentos y bebidas, mantenimiento industrial, logística y proveedores de la industria minera. Nuestro enfoque es adaptable a cualquier organización que busque mejorar productividad, trazabilidad y gestión.
+              </p>
+            </div>
+          </div>
+        </div>
 
-  </div>
+        <div class="col-md-12">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4>¿Cómo puedo empezar a trabajar con ustedes?</h4>
+              <p class="mb-0">
+                Podés contactarnos a través del formulario de esta página para coordinar una primera conversación. A partir de ahí analizamos tu situación, identificamos oportunidades de mejora y te proponemos un plan de acción a medida para comenzar a trabajar sobre resultados concretos.
+              </p>
+            </div>
+          </div>
+        </div>
 
-</section>
+      </div>
 
-<section id="clientes">
+    </div>
+  </section>
 
-  <div class="container">
-
-<h2 class="text-center mb-5">
-  Comentarios de Clientes
-</h2>
-
-<div class="row">
-
-  <div class="col-md-4">
-    ⭐⭐⭐⭐⭐<br>
-    Logramos visualizar indicadores que nunca habíamos medido.
-  </div>
-
-  <div class="col-md-4">
-    ⭐⭐⭐⭐⭐<br>
-    Obtuvimos trazabilidad completa en pocas semanas.
-  </div>
-
-  <div class="col-md-4">
-    ⭐⭐⭐⭐⭐<br>
-    Pasamos de planillas dispersas a información centralizada.
-  </div>
-
-</div>
-
-
-  </div>
-
-</section>
-
-<section id="contacto">
+  <section id="contacto">
 
     <div id="particles"></div>
 
     <div class="contact-card">
 
-        <h2 class="text-center mb-5">
-            Contacto
-        </h2>
+      <h2 class="text-center mb-5">
+        Contacto
+      </h2>
 
-        <form action="https://formspree.io/f/mkoaljnw" method="POST">
+      <form action="https://formspree.io/f/mkoaljnw" method="POST">
 
-            <div class="mb-3">
-                <input
-                    name="nombre"
-                    class="form-control"
-                    placeholder="Nombre">
-            </div>
+        <div class="mb-3">
+          <input
+            name="nombre"
+            class="form-control"
+            placeholder="Nombre">
+        </div>
 
-            <div class="mb-3">
-                <input
-                    name="empresa"
-                    class="form-control"
-                    placeholder="Empresa">
-            </div>
+        <div class="mb-3">
+          <input
+            name="empresa"
+            class="form-control"
+            placeholder="Empresa">
+        </div>
 
-            <div class="mb-3">
-                <input
-                    name="email"
-                    type="email"
-                    class="form-control"
-                    placeholder="Email">
-            </div>
+        <div class="mb-3">
+          <input
+            name="email"
+            type="email"
+            class="form-control"
+            placeholder="Email">
+        </div>
 
-            <div class="mb-3">
-                <textarea
-                    name="mensaje"
-                    class="form-control"
-                    rows="5"
-                    placeholder="Mensaje"></textarea>
-            </div>
+        <div class="mb-3">
+          <textarea
+            name="mensaje"
+            class="form-control"
+            rows="5"
+            placeholder="Contanos brevemente qué proceso, área o desafío querés mejorar"></textarea>
+        </div>
 
-            <div class="text-center">
+        <div class="text-center">
+          <button
+            type="submit"
+            class="btn btn-warning btn-lg">
+            Contactanos
+          </button>
+        </div>
 
-                <button
-                    type="submit"
-                    class="btn btn-warning btn-lg">
-
-                    Contactanos
-
-                </button>
-
-            </div>
-
-        </form>
+      </form>
 
     </div>
 
-</section>
+  </section>
 
-<script src="js/app.js"></script>
+  <script src="js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-<footer class="footer">
-
+  <footer class="footer">
     © 2026 ARGOS Consultora
-
-</footer>
+  </footer>
 
 </body>
 </html>
-
