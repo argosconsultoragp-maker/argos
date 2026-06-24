@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +25,10 @@
         class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
-        data-bs-target="#menu">
+        data-bs-target="#menu"
+        aria-controls="menu"
+        aria-expanded="false"
+        aria-label="Abrir menú">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -32,7 +36,7 @@
         <ul class="navbar-nav ms-auto">
 
           <li class="nav-item">
-            <a class="nav-link" href="#inicio">Inicio</a>
+            <a class="nav-link active" href="#inicio">Inicio</a>
           </li>
 
           <li class="nav-item">
@@ -40,7 +44,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#servicios">Servicios</a>
+            <a class="nav-link" href="#servicios">Cómo te ayudamos</a>
           </li>
 
           <li class="nav-item">
@@ -48,11 +52,11 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#experiencia">Experiencia</a>
+            <a class="nav-link" href="#experiencia">Servicios</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#clientes">Clientes</a>
+            <a class="nav-link" href="#clientes">Testimonio y FAQ</a>
           </li>
 
           <li class="nav-item">
@@ -67,8 +71,8 @@
 
   <section id="inicio" class="hero-parallax">
     <div class="overlay">
-
       <div class="container text-center">
+
         <img
           src="img/logo.jpg"
           class="d-block mx-auto"
@@ -90,8 +94,8 @@
         <a href="#contacto" class="btn btn-warning btn-lg mt-3">
           Contactanos
         </a>
-      </div>
 
+      </div>
     </div>
   </section>
 
@@ -105,31 +109,47 @@
       <div class="row g-4">
 
         <div class="col-md-6">
-          <h4>Ineficiencia Operativa</h4>
-          <p>
-            Procesos manuales que ralentizan la producción, generan errores y consumen tiempo valioso del equipo.
-          </p>
+          <div class="card h-100">
+            <div class="card-body">
+              <h4>Ineficiencia Operativa</h4>
+              <p class="mb-0">
+                Procesos manuales que ralentizan la producción y generan errores.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div class="col-md-6">
-          <h4>Falta de Visibilidad</h4>
-          <p>
-            Datos dispersos en planillas, registros aislados y poca claridad sobre el rendimiento real de la operación.
-          </p>
+          <div class="card h-100">
+            <div class="card-body">
+              <h4>Falta de Visibilidad</h4>
+              <p class="mb-0">
+                Datos dispersos en planillas, sin una visión clara del rendimiento en tiempo real.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div class="col-md-6">
-          <h4>Altos Costos de Software</h4>
-          <p>
-            ERPs tradicionales complejos y costosos que obligan a adaptar tus procesos a la herramienta, en lugar de acompañar tu forma de trabajar.
-          </p>
+          <div class="card h-100">
+            <div class="card-body">
+              <h4>Altos Costos de Software</h4>
+              <p class="mb-0">
+                ERPs tradicionales complejos y costosos que no se adaptan a tus necesidades.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div class="col-md-6">
-          <h4>Toma de Decisiones Lenta</h4>
-          <p>
-            Decisiones basadas en intuición o información desactualizada, perdiendo oportunidades de mejora y crecimiento.
-          </p>
+          <div class="card h-100">
+            <div class="card-body">
+              <h4>Toma de Decisiones Lenta</h4>
+              <p class="mb-0">
+                Basada en intuición o información desactualizada, perdiendo oportunidades.
+              </p>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -147,17 +167,17 @@
         </h2>
 
         <h4 class="text-center mb-5 text-white">
-          En Argos combinamos experiencia en ingeniería, análisis de procesos y herramientas digitales para diseñar soluciones prácticas que mejoran la productividad, reducen costos y facilitan la toma de decisiones.
+          En Argos, combinamos experiencia en ingeniería y análisis de procesos con la agilidad de herramientas digitales y servicios en la nube para diseñar e implementar soluciones que resuelven problemas de raíz.
         </h4>
 
-        <div class="row g-4 mb-5">
+        <div class="row g-4">
 
           <div class="col-md-4">
             <div class="card h-100">
               <div class="card-body">
-                <h4>Implementación de sistemas de gestión y mejora continua</h4>
-                <p>
-                  Diseñamos e implementamos sistemas de gestión integral, metodologías de mejora continua y herramientas orientadas a aumentar la productividad, ordenar procesos y fortalecer la calidad operativa.
+                <h4>Implementar sistemas de gestión y mejora continua</h4>
+                <p class="mb-0">
+                  Diseñamos e implementamos sistemas de gestión integral, herramientas de calidad y metodologías de mejora continua para aumentar la productividad y ordenar la operación.
                 </p>
               </div>
             </div>
@@ -166,9 +186,9 @@
           <div class="col-md-4">
             <div class="card h-100">
               <div class="card-body">
-                <h4>Digitalización de procesos y automatización de registros</h4>
-                <p>
-                  Automatizamos la captura de datos, eliminamos planillas manuales y optimizamos flujos de trabajo en planta mediante soluciones digitales adaptadas a la realidad de tu empresa.
+                <h4>Digitalizar procesos y automatizar registros</h4>
+                <p class="mb-0">
+                  Automatizamos la captura de datos, eliminamos planillas manuales y optimizamos flujos de trabajo en planta con soluciones prácticas y a medida.
                 </p>
               </div>
             </div>
@@ -177,9 +197,9 @@
           <div class="col-md-4">
             <div class="card h-100">
               <div class="card-body">
-                <h4>Dashboards e información para decidir mejor</h4>
-                <p>
-                  Creamos tableros de gestión y visualizaciones que te permiten monitorear KPIs, detectar desvíos y tomar decisiones inteligentes con datos actualizados y confiables.
+                <h4>Reducir costos y mejorar la toma de decisiones</h4>
+                <p class="mb-0">
+                  Creamos tableros, indicadores y sistemas adaptados a tu negocio para tomar decisiones con datos precisos, actualizados y accionables.
                 </p>
               </div>
             </div>
@@ -187,7 +207,7 @@
 
         </div>
 
-        <div class="row g-4">
+        <div class="row g-4 mt-2">
 
           <div class="col-md-6">
             <div class="card h-100">
@@ -196,10 +216,10 @@
                 <ul class="mb-0">
                   <li>Digitalizar tus procesos y automatizar la captura de datos.</li>
                   <li>Reducir costos operativos con soluciones a medida.</li>
-                  <li>Obtener visibilidad total sobre tus indicadores clave.</li>
-                  <li>Tomar decisiones basadas en información precisa y actualizada.</li>
-                  <li>Implementar sistemas de gestión adaptados a tu operación.</li>
-                  <li>Fortalecer la productividad con herramientas prácticas de mejora continua.</li>
+                  <li>Obtener visibilidad total sobre KPIs clave.</li>
+                  <li>Tomar decisiones inteligentes basadas en datos actualizados.</li>
+                  <li>Implementar sistemas de gestión adaptados a la realidad de tu empresa.</li>
+                  <li>Fortalecer la productividad con herramientas de mejora continua.</li>
                 </ul>
               </div>
             </div>
@@ -208,12 +228,12 @@
           <div class="col-md-6">
             <div class="card h-100">
               <div class="card-body">
-                <h4>Visión general de servicios</h4>
+                <h4>Enfoque de trabajo</h4>
                 <p>
-                  Ofrecemos un portafolio integral para optimizar la operación industrial, desde la planificación y la gestión de procesos hasta la digitalización de registros y la construcción de tableros ejecutivos.
+                  Combinamos análisis de procesos, visión de ingeniería y herramientas digitales para diseñar soluciones simples, escalables y sostenibles.
                 </p>
                 <p class="mb-0">
-                  Nuestra combinación de experiencia en ingeniería industrial y soluciones low-code nos permite desarrollar implementaciones ágiles, flexibles y enfocadas en resultados concretos.
+                  No buscamos imponer un software genérico: construimos una solución alineada a tus procesos, tus personas y tus objetivos.
                 </p>
               </div>
             </div>
@@ -232,18 +252,16 @@
         </h2>
 
         <p class="text-white mb-5">
-          Creemos en un enfoque práctico, colaborativo y orientado a resultados. Nos involucramos en la operación para comprender los desafíos reales de cada empresa y co-crear soluciones que generen impacto tangible. Nuestra metodología ágil permite implementar mejoras de forma rápida, adaptable y sostenible.
+          Creemos en un enfoque práctico, colaborativo y orientado a resultados. Nos sumergimos en tus operaciones para entender tus desafíos únicos y co-crear soluciones que generen un impacto tangible. Nuestra metodología ágil garantiza implementaciones rápidas, adaptables y enfocadas en que la tecnología trabaje para tu operación.
         </p>
 
         <div class="row metodologia-box">
-
-          <div class="col">1<br>Comprender la operación</div>
-          <div class="col">2<br>Detectar oportunidades</div>
-          <div class="col">3<br>Diseñar indicadores y soluciones</div>
-          <div class="col">4<br>Digitalizar procesos y registros</div>
-          <div class="col">5<br>Implementar y capacitar</div>
-          <div class="col">6<br>Medir, ajustar y acompañar</div>
-
+          <div class="col">1<br>Comprender</div>
+          <div class="col">2<br>Detectar</div>
+          <div class="col">3<br>Diseñar</div>
+          <div class="col">4<br>Digitalizar</div>
+          <div class="col">5<br>Implementar</div>
+          <div class="col">6<br>Acompañar</div>
         </div>
 
       </div>
@@ -268,14 +286,14 @@
                 Impulsa la eficiencia y la calidad en cada etapa de tu cadena de valor.
               </h5>
               <p class="mt-3">
-                Nuestra consultoría se enfoca en identificar oportunidades de mejora, optimizar flujos de trabajo y capacitar a tu equipo en metodologías probadas para aumentar la productividad y la consistencia operativa.
+                Nuestra consultoría se enfoca en identificar oportunidades de mejora, optimizar flujos de trabajo y capacitar a tu equipo en metodologías probadas.
               </p>
               <p>Te acompañamos en la implementación de:</p>
               <ul class="mb-0">
-                <li>Lean Manufacturing para reducir desperdicios y optimizar recursos.</li>
-                <li>Six Sigma para mejorar la calidad y reducir la variabilidad.</li>
-                <li>Gestión por KPIs para definir, medir y seguir indicadores clave.</li>
-                <li>Análisis y rediseño de procesos para lograr mayor eficiencia.</li>
+                <li>Lean Manufacturing: reducción de desperdicios y optimización de recursos.</li>
+                <li>Six Sigma: mejora de la calidad y reducción de la variabilidad.</li>
+                <li>Gestión por KPIs: definición e implementación de indicadores clave.</li>
+                <li>Análisis de procesos: mapeo y rediseño de operaciones para mayor eficiencia.</li>
               </ul>
             </div>
           </div>
@@ -286,15 +304,15 @@
             <div class="card-body">
               <h3>Digitalización y automatización de registros operacionales a medida</h3>
               <h5 class="mt-3">
-                Transforma tu gestión operativa con soluciones digitales adaptadas a tu negocio.
+                Transforma tu gestión operativa con soluciones digitales hechas a medida.
               </h5>
               <p class="mt-3">
-                Diseñamos e implementamos sistemas a medida para registrar, ordenar y explotar la información operativa. Reemplazamos planillas dispersas y procesos manuales por herramientas ágiles, escalables y alineadas a tus necesidades.
+                Diseñamos e implementamos herramientas flexibles para registrar, ordenar y explotar la información operativa, evitando depender de ERPs rígidos y costosos.
               </p>
               <p>Con estas soluciones podrás, entre otras cosas:</p>
               <ul class="mb-0">
-                <li>Optimizar inventarios y controlar insumos, productos en proceso y terminados.</li>
-                <li>Planificar mejor la producción y reducir tiempos muertos.</li>
+                <li>Optimizar inventario y controlar materias primas, procesos y productos terminados.</li>
+                <li>Planificar la producción y reducir tiempos muertos.</li>
                 <li>Gestionar la demanda y anticipar necesidades operativas.</li>
                 <li>Reducir costos evitando sobre-stock, faltantes y reprocesos.</li>
               </ul>
@@ -307,17 +325,17 @@
             <div class="card-body">
               <h3>Dashboards ejecutivos y de productividad</h3>
               <h5 class="mt-3">
-                Toma el control de tus operaciones con información clara y en tiempo real.
+                Toma el control de tus operaciones con información en tiempo real.
               </h5>
               <p class="mt-3">
-                Convertimos tus datos operativos en dashboards interactivos, simples de interpretar y orientados a la toma de decisiones. Accedé a tus KPIs desde cualquier lugar y visualizá lo que realmente importa.
+                Convertimos tus datos operativos en dashboards interactivos y fáciles de interpretar para monitorear desempeño, detectar desvíos y reaccionar a tiempo.
               </p>
               <p>Estos tableros te permitirán:</p>
               <ul class="mb-0">
-                <li>Monitorear rendimiento de producción, calidad, mantenimiento o logística.</li>
+                <li>Monitorear producción, calidad, mantenimiento o logística.</li>
                 <li>Identificar cuellos de botella y oportunidades de mejora.</li>
-                <li>Tomar decisiones con datos actualizados y confiables.</li>
-                <li>Contar con tableros personalizados según tus métricas prioritarias.</li>
+                <li>Tomar decisiones con información precisa y actualizada.</li>
+                <li>Diseñar tableros alineados a las métricas más importantes de tu negocio.</li>
               </ul>
             </div>
           </div>
@@ -331,14 +349,14 @@
                 Automatizá y simplificá tus operaciones con aplicaciones móviles y web a medida.
               </h5>
               <p class="mt-3">
-                Creamos aplicaciones personalizadas para digitalizar tareas manuales, capturar información en planta y estandarizar flujos de trabajo. Buscamos que la tecnología sea una herramienta concreta para operar mejor.
+                Creamos aplicaciones personalizadas para digitalizar tareas manuales, capturar datos en planta y estandarizar flujos de trabajo en áreas clave de la operación.
               </p>
               <p>Estas soluciones pueden incluir:</p>
               <ul class="mb-0">
-                <li>Captura de datos en origen, eliminando papel y errores de transcripción.</li>
+                <li>Captura de datos en origen sin papel ni transcripciones manuales.</li>
                 <li>Gestión de inventarios con entradas, salidas y ubicaciones en tiempo real.</li>
                 <li>Control de calidad con registro de inspecciones y no conformidades.</li>
-                <li>Mantenimiento preventivo con planificación y seguimiento desde cualquier dispositivo.</li>
+                <li>Mantenimiento preventivo y seguimiento desde cualquier dispositivo.</li>
                 <li>Automatización de flujos de trabajo, aprobaciones y notificaciones.</li>
               </ul>
             </div>
@@ -357,7 +375,7 @@
         Testimonio destacado
       </h2>
 
-      <div class="row justify-content-center">
+      <div class="row justify-content-center mb-5">
         <div class="col-lg-10">
           <div class="card h-100">
             <div class="card-body text-center">
@@ -372,63 +390,73 @@
         </div>
       </div>
 
-      <h2 class="text-center mt-5 mb-5">
+      <h2 class="text-center mb-5">
         Preguntas frecuentes
       </h2>
 
-      <div class="row g-4">
+      <div class="accordion" id="faqAccordion">
 
-        <div class="col-md-6">
-          <div class="card h-100">
-            <div class="card-body">
-              <h4>¿Qué es el low-code y por qué puede ser relevante para mi PyME?</h4>
-              <p class="mb-0">
-                El low-code es una forma de desarrollar aplicaciones utilizando entornos visuales y componentes reutilizables, reduciendo tiempos y costos de implementación. Para una PyME industrial, esto permite digitalizar procesos con mayor rapidez, adaptar las herramientas a la operación real y evitar depender de soluciones rígidas o sobredimensionadas.
-              </p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqOneHeading">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="true" aria-controls="faqOne">
+              ¿Qué es el low-code y por qué es relevante para mi PyME?
+            </button>
+          </h2>
+          <div id="faqOne" class="accordion-collapse collapse show" aria-labelledby="faqOneHeading" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              El low-code es una metodología de desarrollo de software que permite crear aplicaciones con poca codificación manual utilizando interfaces visuales. Para una PyME industrial esto significa digitalizar más rápido, con menor costo y con herramientas adaptadas a sus procesos reales.
             </div>
           </div>
         </div>
 
-        <div class="col-md-6">
-          <div class="card h-100">
-            <div class="card-body">
-              <h4>¿Qué diferencia a sus soluciones de un ERP tradicional?</h4>
-              <p class="mb-0">
-                Nuestras soluciones son más ágiles, personalizables y orientadas a resolver problemas concretos de la operación. En lugar de obligarte a adaptar tu empresa a un software genérico, desarrollamos herramientas a medida para que el sistema acompañe tus procesos, con menor inversión y tiempos de implementación más cortos.
-              </p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqTwoHeading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+              ¿Qué diferencia a sus soluciones de un ERP tradicional?
+            </button>
+          </h2>
+          <div id="faqTwo" class="accordion-collapse collapse" aria-labelledby="faqTwoHeading" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Nuestras soluciones son altamente personalizables, se implementan en semanas y tienen un costo significativamente menor. En lugar de obligarte a adaptar tus procesos al software, desarrollamos una herramienta alineada a tu forma de trabajar.
             </div>
           </div>
         </div>
 
-        <div class="col-md-6">
-          <div class="card h-100">
-            <div class="card-body">
-              <h4>¿Necesito conocimientos técnicos para usar las aplicaciones?</h4>
-              <p class="mb-0">
-                No. Diseñamos aplicaciones simples e intuitivas para que puedan ser utilizadas por operarios, supervisores, responsables de calidad o gerentes. Además, acompañamos la implementación con capacitación para facilitar la adopción por parte del equipo.
-              </p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqThreeHeading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+              ¿Necesito conocimientos técnicos para usar las aplicaciones?
+            </button>
+          </h2>
+          <div id="faqThree" class="accordion-collapse collapse" aria-labelledby="faqThreeHeading" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              No. Diseñamos aplicaciones intuitivas para operarios, supervisores y gerentes. Además, brindamos capacitación para asegurar una adopción rápida y efectiva.
             </div>
           </div>
         </div>
 
-        <div class="col-md-6">
-          <div class="card h-100">
-            <div class="card-body">
-              <h4>¿Qué tipo de industrias atienden?</h4>
-              <p class="mb-0">
-                Trabajamos principalmente con PyMEs industriales y de servicios técnicos, incluyendo metalmecánica, alimentos y bebidas, mantenimiento industrial, logística y proveedores de la industria minera. Nuestro enfoque es adaptable a cualquier organización que busque mejorar productividad, trazabilidad y gestión.
-              </p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqFourHeading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqFour" aria-expanded="false" aria-controls="faqFour">
+              ¿Qué tipo de industrias atienden?
+            </button>
+          </h2>
+          <div id="faqFour" class="accordion-collapse collapse" aria-labelledby="faqFourHeading" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Trabajamos principalmente con PyMEs industriales y de servicios técnicos: alimentos y bebidas, metalmecánica, mantenimiento industrial, logística y proveedores de la industria minera, entre otras.
             </div>
           </div>
         </div>
 
-        <div class="col-md-12">
-          <div class="card h-100">
-            <div class="card-body">
-              <h4>¿Cómo puedo empezar a trabajar con ustedes?</h4>
-              <p class="mb-0">
-                Podés contactarnos a través del formulario de esta página para coordinar una primera conversación. A partir de ahí analizamos tu situación, identificamos oportunidades de mejora y te proponemos un plan de acción a medida para comenzar a trabajar sobre resultados concretos.
-              </p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqFiveHeading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqFive" aria-expanded="false" aria-controls="faqFive">
+              ¿Cómo puedo empezar a trabajar con ustedes?
+            </button>
+          </h2>
+          <div id="faqFive" class="accordion-collapse collapse" aria-labelledby="faqFiveHeading" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Podés contactarnos desde el formulario de esta página. Analizamos tus necesidades, identificamos oportunidades de mejora y te proponemos un plan de acción a medida.
             </div>
           </div>
         </div>
@@ -439,7 +467,6 @@
   </section>
 
   <section id="contacto">
-
     <div id="particles"></div>
 
     <div class="contact-card">
@@ -454,7 +481,8 @@
           <input
             name="nombre"
             class="form-control"
-            placeholder="Nombre">
+            placeholder="Nombre"
+            required>
         </div>
 
         <div class="mb-3">
@@ -469,7 +497,8 @@
             name="email"
             type="email"
             class="form-control"
-            placeholder="Email">
+            placeholder="Email"
+            required>
         </div>
 
         <div class="mb-3">
@@ -477,7 +506,8 @@
             name="mensaje"
             class="form-control"
             rows="5"
-            placeholder="Contanos brevemente qué proceso, área o desafío querés mejorar"></textarea>
+            placeholder="Contanos brevemente qué proceso, área o desafío querés mejorar"
+            required></textarea>
         </div>
 
         <div class="text-center">
@@ -491,7 +521,6 @@
       </form>
 
     </div>
-
   </section>
 
   <script src="js/app.js"></script>
